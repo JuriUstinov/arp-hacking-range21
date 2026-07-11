@@ -1,0 +1,7 @@
+user_flag:
+  - type: text
+    pattern: "FLAG{[a-f0-9]{8}}"  # Generiert z.B. FLAG{a1b2c3d4}
+
+root_flag:
+  - type: text
+    pattern: "FLAG{[A-Z0-9]{8}}"
